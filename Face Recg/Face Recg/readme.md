@@ -1,1 +1,1 @@
-your trainer images just created on here delete it if you destroy.
+your trainer images just created on here. delete this file if you destroy.
