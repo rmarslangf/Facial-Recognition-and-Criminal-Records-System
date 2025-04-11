@@ -8,8 +8,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -19,40 +17,45 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
+<h3 align="center">Facial Recognition and Criminal Records System Project 🕵️‍♂️</h3>
 
-  <h3 align="center">Facial Recognition and Criminal Records System Project</h3>
-</div>
+## About The Project 📚
 
+This project aims to track down risky individuals for public interest and security ⚖️. It lists criminal records associated with individuals if stored in the database. The system uses **OpenCV** for training facial recognition models 👁️‍🗨️.
 
+### Built With 🛠️
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-This project aims, Track down risky individuals for public interest and public/personal security. List down indivudal's criminal records if it saved to database. Using OpenCV for training cascade.
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
+## Getting Started 🚀
 
-### Built With
+### Prerequisites 📋
 
+Before running the project, make sure to have the latest Python distribution installed, as well as OpenCV contributions for facial recognition functionality 🖱️.
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+1. **Install Dependencies**  
+   Use **pip** to install the required libraries:
 
-## Getting Started
+   ```bash
+   pip install opencv-contrib-python
+     ```
+## Usage 💻
+To use this project, follow the steps outlined below:
 
-### Prerequisites
+1. Scan a Face 🤳
+First, scan your face or someone else's using the camera. 📸
 
-You must be downloaded latest Python distrubition and opencv contribution
-* pip
-  ```sh
-  pip install opencv-contrib-python
+2. Train the Face Data 🏋️‍♀️
+After scanning, train the system with the face data. 🧠
+
+3. Use the Detector 🔍
+You can now use the face detector to check the database for criminal records. 🚔
+
+4. Example of Usage 🖥️
+After completing the setup steps, you can run the following command to launch the system:
+
+  ```bash
+python mainApp.py
   ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-You can use clone to take my project on your local enviroment. You can use mainApp.py for general use.
-
-<ol>
- <li> First Scan your or someones face to camera</li>
- <li> After that train your face data</li>
- <li> You can now use detector.</li>
-</ol>
+This will start the application where you can begin scanning faces and training the system.
